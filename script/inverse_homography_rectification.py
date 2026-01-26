@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-Batch homography-based document rectification with automatic corner detection.
-
-- Reads all images from /home/ubuntu/Homography/dataset/input_images
-- Finds document corners automatically (largest 4-point contour)
-- Applies homography to rectify the document
-- Saves results to /home/ubuntu/Homography/dataset/output_images
-"""
 
 from pathlib import Path
 import argparse
